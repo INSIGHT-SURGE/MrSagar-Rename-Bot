@@ -68,10 +68,12 @@ async def send_doc(client,message):
        		await message.reply_text(f"""**{message.from_user.mention}**,\nᴅᴜᴇ  ᴛᴏ  ᴏᴠᴇʀʟᴏᴀᴅ,  ᴏɴʟʏ  ᴄʜᴀɴɴᴇʟ  ᴍᴇᴍʙᴇʀꜱ  ᴄᴀɴ  ᴜꜱᴇ  ᴍᴇ.""",
        		reply_to_message_id = message.id,
        		reply_markup = InlineKeyboardMarkup(
-       		[ [ InlineKeyboardButton("🔥  𝙹𝙾𝙸𝙽  𝚄𝙿𝙳𝙰𝚃𝙴  𝙲𝙷𝙰𝙽𝙽𝙴𝙻  🔥" ,url=f"https://telegram.me/{update_channel}") ]
-		 [InlineKeyboardButton("🔥  MAIN CHANNEL   🔥" ,url=f"https://t.me/+6vOySosoIqUzMzhl") ]
-		 [InlineKeyboardButton("🔥  DATABASE CHANNEL  🔥" ,url=f"https://t.me/+JA6WfwHzHGhhMTVl") ]  ]))                                                                                         
-       		return
+			[
+				[InlineKeyboardButton("🔥 𝙹𝙾𝙸𝙽 𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻 🔥", url=f"https://telegram.me/{update_channel}")],
+				[InlineKeyboardButton("🔥 MAIN CHANNEL 🔥", url=f"https://t.me/+6vOySosoIqUzMzhl")],
+				[InlineKeyboardButton("🔥 DATABASE CHANNEL 🔥", url=f"https://t.me/+JA6WfwHzHGhhMTVl")]
+			]
+		)return
        try:
            bot_data = find_one(int(botid))
            prrename = bot_data['total_rename']
