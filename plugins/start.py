@@ -36,15 +36,15 @@ async def start(client,message):
 	try:
 	    id = message.text.split(' ')[1]
 	except:
-	    await message.reply_text(text =f"""Hᴇʟʟᴏ {message.from_user.mention}\n\n➻ Tʜɪꜱ Iꜱ Aɴ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ Pᴏᴡᴇʀꜰᴜʟ Rᴇɴᴀᴍᴇ Bᴏᴛ.\n\n➻ Uꜱɪɴɢ Tʜɪꜱ Bᴏᴛ Yᴏᴜ Cᴀɴ Rᴇɴᴀᴍᴇ Aɴᴅ Cʜᴀɴɢᴇ Tʜᴜᴍʙɴᴀɪʟ Oғ Yᴏᴜʀ Fɪʟᴇꜱ.\n\n➻ Yᴏᴜ Cᴀɴ Aʟꜱᴏ Cᴏɴᴠᴇʀᴛ Vɪᴅᴇᴏ Tᴏ Fɪʟᴇ Aɴᴅ Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ.\n\n➻ Tʜɪꜱ Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛꜱ Cᴜꜱᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ Aɴᴅ Cᴜꜱᴛᴏᴍ Cᴀᴘᴛɪᴏɴ.\n\nBᴏᴛ Is Mᴀᴅᴇ Bʏ @LUCI_MOVIES""",reply_to_message_id = message.id ,  
-	reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚚     BOT CHANNEL    ⚚', url='https://t.me/LUCI_MOVIES')],[InlineKeyboardButton('👨‍💻 OWNER', url='https://t.me/LuciG0D'),InlineKeyboardButton('⚡️ PREMIUM PLANS ⚡️', callback_data = "upgrade")]]))
+	    await message.reply_text(text =f"""Hᴇʟʟᴏ {message.from_user.mention}\n\n➻ Tʜɪꜱ Iꜱ Aɴ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ Pᴏᴡᴇʀꜰᴜʟ Rᴇɴᴀᴍᴇ Bᴏᴛ.\n\n➻ Uꜱɪɴɢ Tʜɪꜱ Bᴏᴛ Yᴏᴜ Cᴀɴ Rᴇɴᴀᴍᴇ Aɴᴅ Cʜᴀɴɢᴇ Tʜᴜᴍʙɴᴀɪʟ Oғ Yᴏᴜʀ Fɪʟᴇꜱ.\n\n➻ Yᴏᴜ Cᴀɴ Aʟꜱᴏ Cᴏɴᴠᴇʀᴛ Vɪᴅᴇᴏ Tᴏ Fɪʟᴇ Aɴᴅ Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ.\n\n➻ Tʜɪꜱ Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛꜱ Cᴜꜱᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ Aɴᴅ Cᴜꜱᴛᴏᴍ Cᴀᴘᴛɪᴏɴ.\n\nBᴏᴛ Is Mᴀᴅᴇ Bʏ @INSIGHT_MOVIZ""",reply_to_message_id = message.id ,  
+	reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚚     BOT CHANNEL    ⚚', url='https://t.me/INSIGHT_MOVIZ')],[InlineKeyboardButton('👨‍💻 OWNER', url='t.me/INSIGHT_OFFICIAL_ROBOT'),InlineKeyboardButton('⚡️ PREMIUM PLANS ⚡️', callback_data = "upgrade")]]))
 	    return
 	if id:
 	    if old == True:
 	        try:
 	            await client.send_message(id,"ʏᴏᴜʀ  ꜰʀɪᴇɴᴅ  ᴀʟʀᴇᴀᴅʏ  ᴜꜱɪɴɢ  ᴍᴇ")
-	            await message.reply_text(text =f"""Hᴇʟʟᴏ {message.from_user.mention}\n\n➻ Tʜɪꜱ Iꜱ Aɴ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ Pᴏᴡᴇʀꜰᴜʟ Rᴇɴᴀᴍᴇ Bᴏᴛ.\n\n➻ Uꜱɪɴɢ Tʜɪꜱ Bᴏᴛ Yᴏᴜ Cᴀɴ Rᴇɴᴀᴍᴇ Aɴᴅ Cʜᴀɴɢᴇ Tʜᴜᴍʙɴᴀɪʟ Oғ Yᴏᴜʀ Fɪʟᴇꜱ.\n\n➻ Yᴏᴜ Cᴀɴ Aʟꜱᴏ Cᴏɴᴠᴇʀᴛ Vɪᴅᴇᴏ Tᴏ Fɪʟᴇ Aɴᴅ Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ.\n\n➻ Tʜɪꜱ Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛꜱ Cᴜꜱᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ Aɴᴅ Cᴜꜱᴛᴏᴍ Cᴀᴘᴛɪᴏɴ.\n\nBᴏᴛ Is Mᴀᴅᴇ Bʏ @LUCI_MOVIES""",reply_to_message_id = message.id ,  
-	reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚚      BOT CHANNEL     ⚚', url='https://t.me/LUCI_MOVIES')],[InlineKeyboardButton('👨‍💻 OWNER', url='https://t.me/LuciG0D'),InlineKeyboardButton('⚡️ PREMIUM PLANS ⚡️', callback_data = "upgrade")]]))
+	            await message.reply_text(text =f"""Hᴇʟʟᴏ {message.from_user.mention}\n\n➻ Tʜɪꜱ Iꜱ Aɴ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ Pᴏᴡᴇʀꜰᴜʟ Rᴇɴᴀᴍᴇ Bᴏᴛ.\n\n➻ Uꜱɪɴɢ Tʜɪꜱ Bᴏᴛ Yᴏᴜ Cᴀɴ Rᴇɴᴀᴍᴇ Aɴᴅ Cʜᴀɴɢᴇ Tʜᴜᴍʙɴᴀɪʟ Oғ Yᴏᴜʀ Fɪʟᴇꜱ.\n\n➻ Yᴏᴜ Cᴀɴ Aʟꜱᴏ Cᴏɴᴠᴇʀᴛ Vɪᴅᴇᴏ Tᴏ Fɪʟᴇ Aɴᴅ Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ.\n\n➻ Tʜɪꜱ Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛꜱ Cᴜꜱᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ Aɴᴅ Cᴜꜱᴛᴏᴍ Cᴀᴘᴛɪᴏɴ.\n\nBᴏᴛ Is Mᴀᴅᴇ Bʏ @INSIGHT_MOVIZ""",reply_to_message_id = message.id ,  
+	reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚚      BOT CHANNEL     ⚚', url='https://t.me/INSIGHT_MOVIZ')],[InlineKeyboardButton('👨‍💻 OWNER', url='t.me/INSIGHT_OFFICIAL_ROBOT'),InlineKeyboardButton('⚡️ PREMIUM PLANS ⚡️', callback_data = "upgrade")]]))
 	        except:
 	             return
 	    else:
@@ -53,8 +53,8 @@ async def start(client,message):
 	         limit = _user_["uploadlimit"]
 	         new_limit = limit + 104857600
 	         uploadlimit(int(id),new_limit)
-	         await message.reply_text(text =f"""Hᴇʟʟᴏ {message.from_user.mention}\n\n➻ Tʜɪꜱ Iꜱ Aɴ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ Pᴏᴡᴇʀꜰᴜʟ Rᴇɴᴀᴍᴇ Bᴏᴛ.\n\n➻ Uꜱɪɴɢ Tʜɪꜱ Bᴏᴛ Yᴏᴜ Cᴀɴ Rᴇɴᴀᴍᴇ Aɴᴅ Cʜᴀɴɢᴇ Tʜᴜᴍʙɴᴀɪʟ Oғ Yᴏᴜʀ Fɪʟᴇꜱ.\n\n➻ Yᴏᴜ Cᴀɴ Aʟꜱᴏ Cᴏɴᴠᴇʀᴛ Vɪᴅᴇᴏ Tᴏ Fɪʟᴇ Aɴᴅ Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ.\n\n➻ Tʜɪꜱ Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛꜱ Cᴜꜱᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ Aɴᴅ Cᴜꜱᴛᴏᴍ Cᴀᴘᴛɪᴏɴ.\n\nBᴏᴛ Is Mᴀᴅᴇ Bʏ @LUCI_MOVIES""",reply_to_message_id = message.id ,  
-	reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚚      BOT CHANNEL     ⚚', url='https://t.me/LUCI_MOVIES')],[InlineKeyboardButton('👨‍💻 OWNER', url='https://t.me/LuciG0D'),InlineKeyboardButton('⚡️ PREMIUM PLANS ⚡️', callback_data = "upgrade")]]))
+	         await message.reply_text(text =f"""Hᴇʟʟᴏ {message.from_user.mention}\n\n➻ Tʜɪꜱ Iꜱ Aɴ Aᴅᴠᴀɴᴄᴇᴅ Aɴᴅ Yᴇᴛ Pᴏᴡᴇʀꜰᴜʟ Rᴇɴᴀᴍᴇ Bᴏᴛ.\n\n➻ Uꜱɪɴɢ Tʜɪꜱ Bᴏᴛ Yᴏᴜ Cᴀɴ Rᴇɴᴀᴍᴇ Aɴᴅ Cʜᴀɴɢᴇ Tʜᴜᴍʙɴᴀɪʟ Oғ Yᴏᴜʀ Fɪʟᴇꜱ.\n\n➻ Yᴏᴜ Cᴀɴ Aʟꜱᴏ Cᴏɴᴠᴇʀᴛ Vɪᴅᴇᴏ Tᴏ Fɪʟᴇ Aɴᴅ Fɪʟᴇ Tᴏ Vɪᴅᴇᴏ.\n\n➻ Tʜɪꜱ Bᴏᴛ Aʟꜱᴏ Sᴜᴘᴘᴏʀᴛꜱ Cᴜꜱᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ Aɴᴅ Cᴜꜱᴛᴏᴍ Cᴀᴘᴛɪᴏɴ.\n\nBᴏᴛ Is Mᴀᴅᴇ Bʏ @INSIGHT_MOVIZ""",reply_to_message_id = message.id ,  
+	reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('⚚      BOT CHANNEL     ⚚', url='https://t.me/INSIGHT_MOVIZ')],[InlineKeyboardButton('👨‍💻 OWNER', url='t.me/INSIGHT_OFFICIAL_ROBOT'),InlineKeyboardButton('⚡️ PREMIUM PLANS ⚡️', callback_data = "upgrade")]]))
 	         
 
 @Client.on_message((filters.private &( filters.document | filters.audio | filters.video )) | filters.channel & (filters.document | filters.audio | filters.video))
@@ -68,7 +68,7 @@ async def send_doc(client,message):
        		await message.reply_text(f"""**{message.from_user.mention}**,\nᴅᴜᴇ  ᴛᴏ  ᴏᴠᴇʀʟᴏᴀᴅ,  ᴏɴʟʏ  ᴄʜᴀɴɴᴇʟ  ᴍᴇᴍʙᴇʀꜱ  ᴄᴀɴ  ᴜꜱᴇ  ᴍᴇ.""",
        		reply_to_message_id = message.id,
        		reply_markup = InlineKeyboardMarkup(
-       		[[InlineKeyboardButton("🔥  𝙹𝙾𝙸𝙽  𝚄𝙿𝙳𝙰𝚃𝙴  𝙲𝙷𝙰𝙽𝙽𝙴𝙻  🔥" ,url=f"https://telegram.me/{update_channel}")],[InlineKeyboardButton('🔥 MAIN CHANNEL 🔥', url='https://t.me/+6vOySosoIqUzMzhl')],[InlineKeyboardButton('RELOAD', url='https://t.me/Dc5_26311_bot?start')]]))                                                                                         
+       		[[InlineKeyboardButton("🔥  𝙹𝙾𝙸𝙽  𝚄𝙿𝙳𝙰𝚃𝙴  𝙲𝙷𝙰𝙽𝙽𝙴𝙻  🔥" ,url=f"https://telegram.me/{update_channel}")],[InlineKeyboardButton('🔥 SOURCE CODE 🔥', url='https://t.me/+mndU7SlUs9NkMDJl')],[InlineKeyboardButton('MOVIE DATABASE', url='https://t.me/+osNlhzwPgo9lY2I1')]]))                                                                                         
        		return
        try:
            bot_data = find_one(int(botid))
